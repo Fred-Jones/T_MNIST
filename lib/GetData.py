@@ -8,5 +8,5 @@ def read_csv(datadir='./data'):
         print 'Loading {} ...'.format(file)
         with open(datadir + '/' + file, 'r') as csvfile:
             dats += (pd.read_csv(csvfile, header=0),)
-    print 'Completed: convert .csv files to pd.d\nReturns dict object'
+    print 'Completed: convert .csv files to pd.df\n'
     return dats
